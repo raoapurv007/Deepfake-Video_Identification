@@ -3,7 +3,9 @@
  and deals with the human brain inspired neural network technology. Computer vi
 sion plays an important role in our project. It helps in processing the video and
  frames with the help of Open-CV. A PyTorch trained model is a classifier to classify
- the source video as deepfake or pristine
+ the source video as deepfake or pristine.
+
+ Tn this we use convolutional neural network for analysis of a video.
 
  # Libraries Used
  1. **torch :**  The fundamental Python library for machine learning, providing tensor computations, automatic differentiation, and neural network building blocks.
@@ -55,4 +57,19 @@ sion plays an important role in our project. It helps in processing the video an
 ![2 (5)](https://github.com/user-attachments/assets/ffd2c77e-a2ad-47f9-8fca-aef9b786e2b4)
 
 
+# Algorithm Details
+
+ **ResNext CNN :** The pre-trained model of Residual Convolution Neural Net
+work is used. The model name is resnext50_32x4d()[22]. This model consists
+ of 50 layers and 32 x 4 dimensions. Figure shows the detailed implementation
+ of model
+
+ **LSTM Layer :** LSTM is used for sequence processing and spot the temporal
+ change between the frames.2048-dimensional feature vectors is fitted as the
+ input to the LSTM. We are using 1 LSTM layer with 2048 latent dimensions
+ and 2048 hidden layers along with 0.4 chance of dropout, which is capable to
+ do achieve our objective. LSTM is used to process the frames in a sequential
+ manner so that the temporal analysis of the video can be made, by comparing
+ the frame at ‘t’ second with the frame of ‘t-n’ seconds. Where n can be any
+ number of frames before t.
 
