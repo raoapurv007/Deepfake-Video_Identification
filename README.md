@@ -39,13 +39,19 @@ sion plays an important role in our project. It helps in processing the video an
 
 ![2 (6)](https://github.com/user-attachments/assets/a31d91c3-2064-458f-aeb8-009ca0c6b1ea)
 
+
+
 **Frames Splitting**
 
 
 ![2 (4)](https://github.com/user-attachments/assets/0c5ab52a-0806-4639-bf5d-06a8e2e57946)
 
 
+
 **Output**
+
+
+
 ![2 (5)](https://github.com/user-attachments/assets/ffd2c77e-a2ad-47f9-8fca-aef9b786e2b4)
 
 
